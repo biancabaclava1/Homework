@@ -4,7 +4,7 @@
     background-color:#FFFFFFFF ;
 }
 
-.root{
+:root{
     --background-color: #FFFFFF;
     --text-color: #434455;
     --brand-color: #2E2F42;
@@ -21,6 +21,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .link{
@@ -41,6 +42,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0
 }
 
 .link-nav:hover{
@@ -74,6 +76,7 @@
 
 .section-one{
     background-color: #2e2f42 ;
+    padding: 188px 0;
 }
 
 .section-one-title{
@@ -82,6 +85,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff ;
+    max-width: 496px;
 }
 
 .order-button{
@@ -92,6 +96,12 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .order-button:hover{
@@ -107,6 +117,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-p{
@@ -123,10 +134,12 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42 ;
+    margin-bottom: 72px;
 }
 
 .section-four{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title{
@@ -136,6 +149,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize ;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .names{
@@ -144,17 +158,22 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .job-name{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
+
 
 }
 
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0 ;
 }
 
 .footer-logo{
@@ -165,6 +184,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .span-footer{
@@ -176,6 +197,7 @@
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .buttonsp{
@@ -213,4 +235,100 @@
 
 .footer-p{
     background-color: #2e2f42;
+}
+.span-footer-p{
+    color: #f4f4f4fd;
+}
+
+.img{
+    display: block;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div-container{
+    display: flex
+}
+
+.container{
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav{
+    display: flex;
+    gap: 40px;
+}
+
+.address-list{
+    display: flex;
+    gap: 40px;
+}
+
+.section-two{
+    padding: 120px 0;
+
+}
+.visually-hidden{
+    visibility: hidden;
+
+}
+
+.titles-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.first-element{
+    width: 100%;
+    min-width: 264px;
+}
+
+.section-three{
+    padding-bottom: 120px;
+}
+
+.doing-list{
+    display: flex;
+    gap: 24px;
+}
+.photosc{
+    width: calc((100% - 48px) / 3);
+}
+
+.people-list{
+    display: flex;
+    gap: 24px;
+}
+
+.mark{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name-parag{
+    padding: 32px 0;
+}
+.port-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-porto{
+    display: flex;
+}
+
+.menu-nav-porto{
+    display: flex;
+    align-items: center;
 }
