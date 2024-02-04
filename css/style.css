@@ -122,7 +122,7 @@ border-radius: 2px;
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    
+    padding: 16px 32px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -271,6 +271,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+
+
+
+
+
 .div-container{
     display: flex
 }
@@ -417,6 +422,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.11;
     color:#2e2f42 ;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .customers-list{
@@ -661,7 +667,7 @@ font-weight: 500;
         background: #4D5AE5;
         font-weight: 500;
         line-height: 24px;
-        letter-spacing: 0.4em;
+        letter-spacing: 0.64px;
         color: #ffffff;
         text-align: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
